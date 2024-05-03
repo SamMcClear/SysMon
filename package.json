@@ -1,0 +1,12 @@
+{
+  "name": "sysmonbeta",
+  "version": "0.1.0",
+  "description": "Both a preactive and reactive monitoring agent for a range of applicatons including networks, servers, application and VM performance, RMM, & detailed logging",
+  "main": "sysMon.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam McClear of ClearNet Developments",
+  "license": "SEE LICENSE IN TermsOfUse.md"
+}
