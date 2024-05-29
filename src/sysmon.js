@@ -53,7 +53,7 @@ console.log(activeScan());
 
 console.log(userAuth(users));
 setInterval(monitorServerActivity, 3000);
-setInterval(writeLog, 3000, 'sysmon.log', sysInfo);
+setInterval(writeLog, 3000, 'users.json', sysInfo);
 
 
 export { users, monitorServerActivity, sysInfo, userAuth, activeScan };
