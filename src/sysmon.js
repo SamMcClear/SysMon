@@ -5,7 +5,7 @@ const totalMemory = os.totalmem();
 const freeMemory = os.freemem();
 const usedMemory = totalMemory - freeMemory;
 const users = os.userInfo();
-
+// git bs...
 async function monitorServerActivity() {
     console.log(`CPU Usage: ${cpuUsage}%`);
     console.log(`Memory Usage: ${usedMemory} bytes`);
